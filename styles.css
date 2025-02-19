@@ -1,16 +1,17 @@
 body {
     font-family: Arial, sans-serif;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     background: url('background.png') no-repeat center center fixed;
     background-size: cover;
-    color: white;
+    color: blue;
 }
 
 header {
     text-align: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+    background: rgb(0, 191, 255); /* Dark overlay for readability */
 }
 
 .logo {
@@ -23,7 +24,7 @@ header {
 .subtitle {
     font-size: 1.2rem;
     font-weight: normal;
-    color: white;
+    color: yellow;
     margin-bottom: 20px;
 }
 
@@ -46,7 +47,7 @@ nav ul li a {
 .hero {
     text-align: center;
     padding: 50px;
-    background: rgba(0, 0, 255, 0.7); /* Blue overlay for contrast */
+    /*background: rgba(0, 0, 255, 0.7);  Blue overlay for contrast */
 }
 
 .hero .btn {
